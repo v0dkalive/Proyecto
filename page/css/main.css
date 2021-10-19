@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
   }
-
   body {
     margin: 0;
     font-size: 1rem;
@@ -74,7 +73,7 @@
     text-decoration: none;
   }
   
-  @media (max-width: 960px) {
+  @media (max-width: 320px) {
     .content {
       padding: 0 3rem 0 3rem;
     }
@@ -99,3 +98,7 @@
     animation-delay: 1s;
     transform: rotate(347deg);
   }
+
+
+
+  

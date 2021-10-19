@@ -55,15 +55,72 @@ body {
     background-image: url("http://imgfz.com/i/TXhzqUr.jpeg");
     background-size: 100%;
   }
-.tituloprisionero{
-    color: rgb(0, 255, 34);
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Do Hyeon', sans-serif;
-}
+
 
 .textohistoria{
     font-size: 25px;
     line-height: 73px;
     font-family: 'Anton', sans-serif;
+}
+
+.textohistoria span{
+  color: #ff0606;
+}
+
+
+.row{
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.column{
+  flex: 25%;
+  padding: 5px;
+}
+
+
+.articulo-1{
+  font-size: 15px;
+}
+
+.articulo-1__h2{
+color: rgb(255, 0, 0);
+}
+
+.articulo-1__p{
+  color: rgb(7, 7, 7);
+}
+
+
+.articulo-2{
+  color: #f73a00;
+}
+
+.articulo-2__h2{
+color: rgb(240, 0, 0);
+}
+
+.articulo-2__p{
+  color: rgb(2, 2, 2);
+}
+
+.articulo-3{
+color: aqua;
+}
+
+.articulo-3__h2{
+color: rgb(247, 15, 7);
+}
+
+.articulo-3__p{
+  color: rgb(7, 7, 7);
+}
+
+.articulo-4{
+  color: #000000;
+}
+
+.articulo-4__h2{
+  color: rgb(255, 0, 0);
 }

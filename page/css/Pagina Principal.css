@@ -3,17 +3,6 @@
     padding:0px;
 }
 
-@media screen and (min-widht: 768px) {
-    .nav{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-
-
-
-
 #header {
     margin:auto;
     width:500px;
@@ -61,13 +50,6 @@ ul, ol {
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 .header{
    background-color: black;
     height: 100px;
@@ -106,6 +88,14 @@ ul, ol {
 
 }
 
+@media (max-width: 320px) {
+    .content {
+      padding: 0 3rem 0 3rem;
+    }
+  }
+
+  
+
 #intro .intro__texto{
     color: beige;
     font-family: 'Pacifico', cursive;
@@ -128,4 +118,5 @@ body {
     background-color: #f73a00;
     background-image: url("http://imgfz.com/i/2oyJwt4.jpeg");
     background-size: 100%;
+
   }

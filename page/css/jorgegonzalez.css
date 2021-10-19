@@ -67,7 +67,7 @@
 }
 
 .textojorge{
-    font-size: 18px;
+    font-size: 21px;
     color: white;
     margin: 10px;
     font-family: 'Hammersmith One', sans-serif;
@@ -77,7 +77,7 @@
     font-size: 50px;
     text-align: center;
     margin: 1%;
-    color: white;
+    color: rgb(228, 15, 15);
 }
 
 .textosanmiguel{
@@ -92,3 +92,23 @@ body {
     background-image: url("http://imgfz.com/i/BkiEL9b.jpeg");
     background-size: 100%;
   }
+
+img{
+    width: 24%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+    transform: rotate(356deg);
+}

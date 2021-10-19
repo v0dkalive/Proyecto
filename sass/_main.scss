@@ -1,0 +1,22 @@
+@mixin foto($width,$margin-top,$transformrotate) {
+    width: $width ;
+    margin-top: $margin-top;
+    transform: rotate($transformrotate);
+}
+
+.colum img{
+    @include foto(24%,5px,356deg);
+}
+$galeria:(
+    "imagen1": "Los prisioneros1.jpg",
+    "imagen2": "Los prisioneros2.jpg",
+    "imagen3": "Los prisioneros3.jpg",
+    "imagen4": "Los prisioneros4.jpg",
+);
+@each $area in $galeria{
+    div.#{$area}{
+        @include foto(24%,5px,356deg);  
+
+    }
+
+}

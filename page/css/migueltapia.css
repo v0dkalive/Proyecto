@@ -64,8 +64,8 @@
 }
 
 .textomiguel{
-    font-size: 17px;
-    color: white;
+    font-size: 21px;
+    color: #ffffff;
     margin: 10px;
     font-family: 'Hammersmith One', sans-serif;
 }
@@ -76,3 +76,69 @@ body {
     background-image: url("http://imgfz.com/i/1QrPEzc.jpeg");
     background-size: 100%;
   }
+
+  img{
+    width: 24%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img{
+    margin-top: 5px;
+    transform: rotate(356deg);
+}
+
+
+.articulo-1{
+  font-size: 15px;
+}
+
+.articulo-1__h2{
+color: rgb(255, 250, 250);
+}
+
+.articulo-1__p{
+  color: rgb(16, 222, 230);
+}
+
+
+.articulo-2{
+  color: #fdfdfd;
+}
+
+.articulo-2__h2{
+color: rgb(243, 243, 243);
+}
+
+.articulo-2__p{
+  color: rgb(19, 226, 233);
+}
+
+.articulo-3{
+color: aqua;
+}
+
+.articulo-3__h2{
+color: rgb(245, 238, 238);
+}
+
+.articulo-3__p{
+  color: rgb(17, 226, 226);
+}
+
+.articulo-4{
+  color: #10d5f8;
+}
+
+.articulo-4__h2{
+  color: rgb(247, 239, 239);
+}
